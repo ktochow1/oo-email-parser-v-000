@@ -16,11 +16,9 @@ class EmailParser
   end
   
   
-
   def initialize(email_string)
     @email = email_string
   end
-  
   
   
   def parse
