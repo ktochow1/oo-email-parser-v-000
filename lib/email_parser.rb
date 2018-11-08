@@ -27,7 +27,7 @@ class EmailParser
     split_email = email.split
     split_email.map do |email|
     email.split(",")
-    end.flatten.uniq
+  end.flatten.uniq
  
   end
   
