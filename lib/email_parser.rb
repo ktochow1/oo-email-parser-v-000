@@ -7,17 +7,21 @@ class EmailParser
   
   attr_accessor :email
   
-  def email=(email)
-    @email = email
+  def email=(email_string)
+    @email = email_string
   end
   
   def email 
     @email
   end
+  
+  
 
   def initialize(email_string)
     @email = email_string
   end
+  
+  
   
   def parse
     split_email = email.split
