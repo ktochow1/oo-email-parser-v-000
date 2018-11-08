@@ -6,6 +6,14 @@ require 'pry'
 class EmailParser 
   
   attr_accessor :email
+  
+  def email=(email)
+    @email = email
+  end
+  
+  def email 
+    @email
+  end
 
   def initialize(email_string)
     @email = email_string
